@@ -4,7 +4,7 @@ export default function Home(){
 
   return(
 <>
-<Link href={'./signup/page.tsx'}> Signup</Link>
+<Link href={'./signup'}> Signup</Link>
 
 </>
 
