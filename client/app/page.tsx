@@ -1,4 +1,15 @@
+import Link from "next/link";
+
 export default function Home(){
 
-  return(<h2>Hello world</h2>)
+  return(
+<>
+<Link href={'./signup/page.tsx'}> Signup</Link>
+
+</>
+
+
+
+
+  )
 }
