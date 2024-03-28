@@ -3,7 +3,7 @@ import { salsa } from "../ui/fonts";
 
 export default function Signup(){
     return(
-        <div className=" signup-container bg-white h-screen flex items-center justify-center">
+        <div className={`signup-container bg-white h-screen flex items-center justify-center `}>
                
 
     <div>
@@ -28,11 +28,11 @@ export default function Signup(){
   <input type="password" className="grow" placeholder="Verify Password" />
 </label>
       <div className="text-center">
-        <p>Already a user? {<Link href='../login'> Log in</Link>}</p>
+        <p className={`text-center ${salsa.className}`}>Already a user? {<Link href='../login' className="text-[#007F73]"> Log in</Link>}</p>
 
       </div>
     <div className="card-actions  mb-3">
-      <button className="btn text-white bg-[#007F73]">Start making notes</button>
+      <button className={`btn text-white bg-[#007F73]  ${salsa.className}`}>Start making notes</button>
     </div>
   </div>
 
