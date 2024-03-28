@@ -28,7 +28,7 @@ export default function Login(){
 
       </div>
     <div className="card-actions  mb-3">
-      <button className={`btn text-white bg-[#007F73]  ${salsa.className}`}>Log in</button>
+    <Link href={'./dashboard'}><button className={`btn text-white bg-[#007F73]  ${salsa.className}` }>Log in</button></Link>
     </div>
   </div>
 
