@@ -7,7 +7,7 @@ export default function Signup(){
                
 
     <div>
-        <h1 className={`text-center ${salsa.className} text-4xl text-[#ffc700] mb-10 ` }>Unaek Notes</h1>
+    <Link href={'../'}><h1 className={`text-center ${salsa.className} text-4xl text-[#ffc700] mb-10 ` }>Unaek Notes</h1></Link>
         
     <div className="card-body items-center text-center">
     
